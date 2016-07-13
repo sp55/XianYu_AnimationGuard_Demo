@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846ABA2F1D361FB300FDBD74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ABA2E1D361FB300FDBD74 /* main.m */; };
+		846ABA321D361FB300FDBD74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ABA311D361FB300FDBD74 /* AppDelegate.m */; };
+		846ABA351D361FB300FDBD74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ABA341D361FB300FDBD74 /* ViewController.m */; };
+		846ABA3A1D361FB300FDBD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846ABA391D361FB300FDBD74 /* Assets.xcassets */; };
+		846ABA3D1D361FB300FDBD74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846ABA3B1D361FB300FDBD74 /* LaunchScreen.storyboard */; };
+		846ABA481D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ABA471D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests.m */; };
+		846ABA531D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ABA521D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests.m */; };
+		846ABA651D361FFD00FDBD74 /* guide0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 846ABA611D361FFD00FDBD74 /* guide0.mp4 */; };
+		846ABA661D361FFD00FDBD74 /* guide1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 846ABA621D361FFD00FDBD74 /* guide1.mp4 */; };
+		846ABA671D361FFD00FDBD74 /* guide2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 846ABA631D361FFD00FDBD74 /* guide2.mp4 */; };
+		846ABA681D361FFD00FDBD74 /* guide3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 846ABA641D361FFD00FDBD74 /* guide3.mp4 */; };
+		846ABA6B1D36204500FDBD74 /* GuardCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ABA6A1D36204500FDBD74 /* GuardCollectionViewController.m */; };
+		846ABA6E1D36205C00FDBD74 /* FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ABA6D1D36205C00FDBD74 /* FlowLayout.m */; };
+		846ABA711D36207300FDBD74 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 846ABA701D36207300FDBD74 /* CollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846ABA441D361FB300FDBD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846ABA221D361FB300FDBD74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846ABA291D361FB300FDBD74;
+			remoteInfo = XianYu_AnimationGuard_Demo;
+		};
+		846ABA4F1D361FB300FDBD74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846ABA221D361FB300FDBD74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846ABA291D361FB300FDBD74;
+			remoteInfo = XianYu_AnimationGuard_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846ABA2A1D361FB300FDBD74 /* XianYu_AnimationGuard_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XianYu_AnimationGuard_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ABA2E1D361FB300FDBD74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846ABA301D361FB300FDBD74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846ABA311D361FB300FDBD74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846ABA331D361FB300FDBD74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		846ABA341D361FB300FDBD74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		846ABA391D361FB300FDBD74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846ABA3C1D361FB300FDBD74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846ABA3E1D361FB300FDBD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846ABA431D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XianYu_AnimationGuard_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ABA471D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XianYu_AnimationGuard_DemoTests.m; sourceTree = "<group>"; };
+		846ABA491D361FB300FDBD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846ABA4E1D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XianYu_AnimationGuard_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846ABA521D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XianYu_AnimationGuard_DemoUITests.m; sourceTree = "<group>"; };
+		846ABA541D361FB300FDBD74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846ABA611D361FFD00FDBD74 /* guide0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide0.mp4; sourceTree = "<group>"; };
+		846ABA621D361FFD00FDBD74 /* guide1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide1.mp4; sourceTree = "<group>"; };
+		846ABA631D361FFD00FDBD74 /* guide2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide2.mp4; sourceTree = "<group>"; };
+		846ABA641D361FFD00FDBD74 /* guide3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide3.mp4; sourceTree = "<group>"; };
+		846ABA691D36204500FDBD74 /* GuardCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuardCollectionViewController.h; sourceTree = "<group>"; };
+		846ABA6A1D36204500FDBD74 /* GuardCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuardCollectionViewController.m; sourceTree = "<group>"; };
+		846ABA6C1D36205C00FDBD74 /* FlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowLayout.h; sourceTree = "<group>"; };
+		846ABA6D1D36205C00FDBD74 /* FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayout.m; sourceTree = "<group>"; };
+		846ABA6F1D36207300FDBD74 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		846ABA701D36207300FDBD74 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846ABA271D361FB300FDBD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABA401D361FB300FDBD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABA4B1D361FB300FDBD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846ABA211D361FB300FDBD74 = {
+			isa = PBXGroup;
+			children = (
+				846ABA2C1D361FB300FDBD74 /* XianYu_AnimationGuard_Demo */,
+				846ABA461D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests */,
+				846ABA511D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests */,
+				846ABA2B1D361FB300FDBD74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846ABA2B1D361FB300FDBD74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846ABA2A1D361FB300FDBD74 /* XianYu_AnimationGuard_Demo.app */,
+				846ABA431D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests.xctest */,
+				846ABA4E1D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846ABA2C1D361FB300FDBD74 /* XianYu_AnimationGuard_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				846ABA601D361FFD00FDBD74 /* Resource */,
+				846ABA301D361FB300FDBD74 /* AppDelegate.h */,
+				846ABA311D361FB300FDBD74 /* AppDelegate.m */,
+				846ABA331D361FB300FDBD74 /* ViewController.h */,
+				846ABA341D361FB300FDBD74 /* ViewController.m */,
+				846ABA691D36204500FDBD74 /* GuardCollectionViewController.h */,
+				846ABA6A1D36204500FDBD74 /* GuardCollectionViewController.m */,
+				846ABA6C1D36205C00FDBD74 /* FlowLayout.h */,
+				846ABA6D1D36205C00FDBD74 /* FlowLayout.m */,
+				846ABA6F1D36207300FDBD74 /* CollectionViewCell.h */,
+				846ABA701D36207300FDBD74 /* CollectionViewCell.m */,
+				846ABA391D361FB300FDBD74 /* Assets.xcassets */,
+				846ABA3B1D361FB300FDBD74 /* LaunchScreen.storyboard */,
+				846ABA3E1D361FB300FDBD74 /* Info.plist */,
+				846ABA2D1D361FB300FDBD74 /* Supporting Files */,
+			);
+			path = XianYu_AnimationGuard_Demo;
+			sourceTree = "<group>";
+		};
+		846ABA2D1D361FB300FDBD74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846ABA2E1D361FB300FDBD74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846ABA461D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				846ABA471D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests.m */,
+				846ABA491D361FB300FDBD74 /* Info.plist */,
+			);
+			path = XianYu_AnimationGuard_DemoTests;
+			sourceTree = "<group>";
+		};
+		846ABA511D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846ABA521D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests.m */,
+				846ABA541D361FB300FDBD74 /* Info.plist */,
+			);
+			path = XianYu_AnimationGuard_DemoUITests;
+			sourceTree = "<group>";
+		};
+		846ABA601D361FFD00FDBD74 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				846ABA611D361FFD00FDBD74 /* guide0.mp4 */,
+				846ABA621D361FFD00FDBD74 /* guide1.mp4 */,
+				846ABA631D361FFD00FDBD74 /* guide2.mp4 */,
+				846ABA641D361FFD00FDBD74 /* guide3.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846ABA291D361FB300FDBD74 /* XianYu_AnimationGuard_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846ABA571D361FB300FDBD74 /* Build configuration list for PBXNativeTarget "XianYu_AnimationGuard_Demo" */;
+			buildPhases = (
+				846ABA261D361FB300FDBD74 /* Sources */,
+				846ABA271D361FB300FDBD74 /* Frameworks */,
+				846ABA281D361FB300FDBD74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XianYu_AnimationGuard_Demo;
+			productName = XianYu_AnimationGuard_Demo;
+			productReference = 846ABA2A1D361FB300FDBD74 /* XianYu_AnimationGuard_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846ABA421D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846ABA5A1D361FB300FDBD74 /* Build configuration list for PBXNativeTarget "XianYu_AnimationGuard_DemoTests" */;
+			buildPhases = (
+				846ABA3F1D361FB300FDBD74 /* Sources */,
+				846ABA401D361FB300FDBD74 /* Frameworks */,
+				846ABA411D361FB300FDBD74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846ABA451D361FB300FDBD74 /* PBXTargetDependency */,
+			);
+			name = XianYu_AnimationGuard_DemoTests;
+			productName = XianYu_AnimationGuard_DemoTests;
+			productReference = 846ABA431D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846ABA4D1D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846ABA5D1D361FB300FDBD74 /* Build configuration list for PBXNativeTarget "XianYu_AnimationGuard_DemoUITests" */;
+			buildPhases = (
+				846ABA4A1D361FB300FDBD74 /* Sources */,
+				846ABA4B1D361FB300FDBD74 /* Frameworks */,
+				846ABA4C1D361FB300FDBD74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846ABA501D361FB300FDBD74 /* PBXTargetDependency */,
+			);
+			name = XianYu_AnimationGuard_DemoUITests;
+			productName = XianYu_AnimationGuard_DemoUITests;
+			productReference = 846ABA4E1D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846ABA221D361FB300FDBD74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					846ABA291D361FB300FDBD74 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+					};
+					846ABA421D361FB300FDBD74 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 846ABA291D361FB300FDBD74;
+					};
+					846ABA4D1D361FB300FDBD74 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 846ABA291D361FB300FDBD74;
+					};
+				};
+			};
+			buildConfigurationList = 846ABA251D361FB300FDBD74 /* Build configuration list for PBXProject "XianYu_AnimationGuard_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846ABA211D361FB300FDBD74;
+			productRefGroup = 846ABA2B1D361FB300FDBD74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846ABA291D361FB300FDBD74 /* XianYu_AnimationGuard_Demo */,
+				846ABA421D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests */,
+				846ABA4D1D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846ABA281D361FB300FDBD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ABA681D361FFD00FDBD74 /* guide3.mp4 in Resources */,
+				846ABA661D361FFD00FDBD74 /* guide1.mp4 in Resources */,
+				846ABA3D1D361FB300FDBD74 /* LaunchScreen.storyboard in Resources */,
+				846ABA3A1D361FB300FDBD74 /* Assets.xcassets in Resources */,
+				846ABA671D361FFD00FDBD74 /* guide2.mp4 in Resources */,
+				846ABA651D361FFD00FDBD74 /* guide0.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABA411D361FB300FDBD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABA4C1D361FB300FDBD74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846ABA261D361FB300FDBD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ABA711D36207300FDBD74 /* CollectionViewCell.m in Sources */,
+				846ABA6B1D36204500FDBD74 /* GuardCollectionViewController.m in Sources */,
+				846ABA351D361FB300FDBD74 /* ViewController.m in Sources */,
+				846ABA6E1D36205C00FDBD74 /* FlowLayout.m in Sources */,
+				846ABA321D361FB300FDBD74 /* AppDelegate.m in Sources */,
+				846ABA2F1D361FB300FDBD74 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABA3F1D361FB300FDBD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ABA481D361FB300FDBD74 /* XianYu_AnimationGuard_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846ABA4A1D361FB300FDBD74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846ABA531D361FB300FDBD74 /* XianYu_AnimationGuard_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846ABA451D361FB300FDBD74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846ABA291D361FB300FDBD74 /* XianYu_AnimationGuard_Demo */;
+			targetProxy = 846ABA441D361FB300FDBD74 /* PBXContainerItemProxy */;
+		};
+		846ABA501D361FB300FDBD74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846ABA291D361FB300FDBD74 /* XianYu_AnimationGuard_Demo */;
+			targetProxy = 846ABA4F1D361FB300FDBD74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846ABA3B1D361FB300FDBD74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846ABA3C1D361FB300FDBD74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846ABA551D361FB300FDBD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846ABA561D361FB300FDBD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846ABA581D361FB300FDBD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XianYu_AnimationGuard_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.XianYu-AnimationGuard-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		846ABA591D361FB300FDBD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XianYu_AnimationGuard_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.XianYu-AnimationGuard-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		846ABA5B1D361FB300FDBD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XianYu_AnimationGuard_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.XianYu-AnimationGuard-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XianYu_AnimationGuard_Demo.app/XianYu_AnimationGuard_Demo";
+			};
+			name = Debug;
+		};
+		846ABA5C1D361FB300FDBD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XianYu_AnimationGuard_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.XianYu-AnimationGuard-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XianYu_AnimationGuard_Demo.app/XianYu_AnimationGuard_Demo";
+			};
+			name = Release;
+		};
+		846ABA5E1D361FB300FDBD74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XianYu_AnimationGuard_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.XianYu-AnimationGuard-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XianYu_AnimationGuard_Demo;
+			};
+			name = Debug;
+		};
+		846ABA5F1D361FB300FDBD74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XianYu_AnimationGuard_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.XianYu-AnimationGuard-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XianYu_AnimationGuard_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846ABA251D361FB300FDBD74 /* Build configuration list for PBXProject "XianYu_AnimationGuard_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ABA551D361FB300FDBD74 /* Debug */,
+				846ABA561D361FB300FDBD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846ABA571D361FB300FDBD74 /* Build configuration list for PBXNativeTarget "XianYu_AnimationGuard_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ABA581D361FB300FDBD74 /* Debug */,
+				846ABA591D361FB300FDBD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846ABA5A1D361FB300FDBD74 /* Build configuration list for PBXNativeTarget "XianYu_AnimationGuard_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ABA5B1D361FB300FDBD74 /* Debug */,
+				846ABA5C1D361FB300FDBD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846ABA5D1D361FB300FDBD74 /* Build configuration list for PBXNativeTarget "XianYu_AnimationGuard_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846ABA5E1D361FB300FDBD74 /* Debug */,
+				846ABA5F1D361FB300FDBD74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846ABA221D361FB300FDBD74 /* Project object */;
+}
